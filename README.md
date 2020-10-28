@@ -16,3 +16,4 @@
     - this makes Python 3 the default version
 1. ```sudo nano /boot/config.txt``` to rotate screen if needed
     ```- add display_rotate=2```
+1. Set up [SAMBA](https://magpi.raspberrypi.org/articles/samba-file-server) so that you can directly edit files on the pi
