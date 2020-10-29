@@ -20,3 +20,4 @@
 
 ## Extras
 1. [HEre's a great tutorial on programs that run on startup](https://medium.com/@wasiullah.khan21/setup-a-python-script-as-a-service-through-systemctl-systemd-f0cc55a42267)
+2. [Python interrupts (untested)](https://blog.miguelgrinberg.com/post/how-to-make-python-wait)
