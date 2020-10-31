@@ -15,7 +15,8 @@
 1. ```sudo su``` ```update-alternatives --install /usr/bin/python python /usr/bin/python3 1```
     - this makes Python 3 the default version
 1. ```sudo nano /boot/config.txt``` to rotate screen if needed
-    ```- add display_rotate=2```
+    - ```display_rotate=2```
+    - You'll want to [flip the touchscreen](https://www.instructables.com/Rotate-Raspberry-Pi-Display-and-Touchscreen/) as well
 1. Set up [SAMBA](https://magpi.raspberrypi.org/articles/samba-file-server) so that you can directly edit files on the pi
 
 ## Extras
