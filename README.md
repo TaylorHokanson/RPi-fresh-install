@@ -17,7 +17,9 @@
 1. ```sudo nano /boot/config.txt``` to rotate screen if needed
     - ```display_rotate=2```
     - You'll want to [flip the touchscreen](https://www.instructables.com/Rotate-Raspberry-Pi-Display-and-Touchscreen/) as well
-1. Set up [SAMBA](https://magpi.raspberrypi.org/articles/samba-file-server) so that you can directly edit files on the pi
+1. Set up [SAMBA](https://www.raspberrypi.org/documentation/remote-access/samba.md) so that you can directly edit files on the pi
+  - I had to ```sudo chmod -R 777 /home/pi/Desktop``` as I kept getting authentication errors
+  - I also restarted samba with ```sudo /etc/init.d/smbd restart```
 
 ## Extras
 1. [HEre's a great tutorial on programs that run on startup](https://medium.com/@wasiullah.khan21/setup-a-python-script-as-a-service-through-systemctl-systemd-f0cc55a42267)
